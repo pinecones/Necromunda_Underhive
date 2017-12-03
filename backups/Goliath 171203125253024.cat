@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f332-c73e-59f7-87e3" name="Goliath" revision="6" battleScribeVersion="2.01" gameSystemId="e0b2-fd9d-e110-5cee" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f332-c73e-59f7-87e3" name="Goliath" revision="7" battleScribeVersion="2.01" authorName="Pinecones" gameSystemId="e0b2-fd9d-e110-5cee" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -126,7 +126,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="01d9-e272-1cb2-eac5" name="Wargear" hidden="false" targetId="bc2b-25f3-48a6-a4eb" type="selectionEntryGroup">
+        <entryLink id="01d9-e272-1cb2-eac5" name="Wargear" hidden="false" targetId="4d05-30c4-9ea0-861e" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -232,7 +232,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="fd66-574b-9291-d092" name="Wargear" hidden="false" targetId="bc2b-25f3-48a6-a4eb" type="selectionEntryGroup">
+        <entryLink id="fd66-574b-9291-d092" name="Wargear" hidden="false" targetId="4d05-30c4-9ea0-861e" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -338,7 +338,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="2caf-a9d2-6d60-c99a" name="Wargear" hidden="false" targetId="bc2b-25f3-48a6-a4eb" type="selectionEntryGroup">
+        <entryLink id="2caf-a9d2-6d60-c99a" name="Wargear" hidden="false" targetId="4d05-30c4-9ea0-861e" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -706,6 +706,58 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="4d05-30c4-9ea0-861e" name="Wargear" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="8b63-2f68-2ca5-018d" name="Krak Grenade" hidden="false" targetId="8744-dc35-e915-e11d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1faa-3f23-f54b-ac8a" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6fcb-5d2d-f47d-72b1" name="Frag Grenade" hidden="false" targetId="4892-483b-db9f-3467" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7287-f1f2-946d-9f84" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="fb0a-711f-f186-a9cf" name="Respirator" hidden="false" targetId="529c-afbb-cdc9-06a9" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54fd-9f4b-91df-9056" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="fd5d-4bb4-d76d-9e43" name="Stimm-slug stash" hidden="false" targetId="e3d2-5872-cec8-c4af" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="923d-bb31-3c82-37e8" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>

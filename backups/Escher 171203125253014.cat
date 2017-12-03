@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="36c0-7282-11b3-d77e" name="Escher" revision="1" battleScribeVersion="2.01" gameSystemId="e0b2-fd9d-e110-5cee" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="36c0-7282-11b3-d77e" name="Escher" revision="5" battleScribeVersion="2.01" authorName="Pinecones" gameSystemId="e0b2-fd9d-e110-5cee" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -8,7 +8,32 @@
   <categoryEntries/>
   <forceEntries/>
   <selectionEntries/>
-  <entryLinks/>
+  <entryLinks>
+    <entryLink id="0ef8-2ff8-f541-c7f4" name="Champion" hidden="false" targetId="ea7c-11a7-1aec-7380" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="cbe9-04bf-b093-77cd" name="Leader" hidden="false" targetId="ee6d-de13-3dc5-a8c8" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="082a-e08f-91d8-7f7a" name="Ganger" hidden="false" targetId="3a19-0d13-7686-cf56" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+  </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="ea7c-11a7-1aec-7380" name="Champion" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -93,7 +118,15 @@
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="82aa-fc58-9851-3945" name="Wargear" hidden="false" targetId="bc2b-25f3-48a6-a4eb" type="selectionEntryGroup">
+        <entryLink id="82aa-fc58-9851-3945" name="Wargear" hidden="false" targetId="d77c-bc4b-2638-f01b" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="29b9-602c-cc91-2b04" name="Weapons" hidden="false" targetId="8021-4091-29e6-fde1" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -191,7 +224,15 @@
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="337f-5de6-1346-fd13" name="Wargear" hidden="false" targetId="bc2b-25f3-48a6-a4eb" type="selectionEntryGroup">
+        <entryLink id="337f-5de6-1346-fd13" name="Wargear" hidden="false" targetId="d77c-bc4b-2638-f01b" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="89c3-b953-4307-f45c" name="Weapons" hidden="false" targetId="8021-4091-29e6-fde1" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -289,7 +330,15 @@
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="6d09-1a7f-f7bd-8037" name="Wargear" hidden="false" targetId="bc2b-25f3-48a6-a4eb" type="selectionEntryGroup">
+        <entryLink id="6d09-1a7f-f7bd-8037" name="Wargear" hidden="false" targetId="d77c-bc4b-2638-f01b" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="0f59-58c4-94ac-cd10" name="Weapons" hidden="false" targetId="8021-4091-29e6-fde1" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -318,7 +367,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="4886-f7d6-a99f-38ce" name="Goliath Status Weapons" hidden="true" targetId="ddb2-dcbe-4e48-1c0f" type="selectionEntryGroup">
+        <entryLink id="1f5c-a2be-a814-4c67" name="Escher Status Weapons" hidden="true" targetId="1f5c-a2be-a814-4c68" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -328,7 +377,10 @@
               <conditions/>
               <conditionGroups>
                 <conditionGroup type="or">
-                  <conditions/>
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ee6d-de13-3dc5-a8c8" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ea7c-11a7-1aec-7380" type="instanceOf"/>
+                  </conditions>
                   <conditionGroups/>
                 </conditionGroup>
               </conditionGroups>
@@ -337,7 +389,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="2acd-c431-0639-ebfd" name="Goliath Weapons" hidden="false" targetId="b55f-8870-ab3d-2dcb" type="selectionEntryGroup">
+        <entryLink id="2acd-c431-0639-ebfd" name="Escher Weapons" hidden="false" targetId="92fa-832c-182f-d622" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -375,7 +427,7 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="3631-1fc7-7eda-94e9" name="Goliath Skills" hidden="false" targetId="701f-7aca-592c-1a2c" type="selectionEntryGroup">
+            <entryLink id="3631-1fc7-7eda-94e9" name="Escher Skills" hidden="false" targetId="3f08-8441-fd7e-609e" type="selectionEntryGroup">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -409,7 +461,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="b8b6-909c-70ff-bd43" name="Goliath Skills" hidden="true" targetId="701f-7aca-592c-1a2c" type="selectionEntryGroup">
+        <entryLink id="b8b6-909c-70ff-bd43" name="Escher Skills" hidden="true" targetId="3f08-8441-fd7e-609e" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -437,6 +489,272 @@
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="3f08-8441-fd7e-609e" name="Escher Skills" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="ba22-98be-5fa6-3743" name="Commanding Presence" hidden="false" targetId="f764-3730-676a-2a6c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0a0-a0f2-4e8d-09d6" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a848-d8d3-7d54-5553" name="Counter-Attack" hidden="false" targetId="0ab2-ea12-b4ed-ef5f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59c7-99b3-6e91-68e3" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7349-d878-5073-8057" name="Disarm" hidden="false" targetId="6f8f-c15d-e932-3154" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74d7-c812-63a4-c5fc" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a6d6-5995-a6be-b303" name="Dive" hidden="false" targetId="fa09-ffa2-91cc-4876" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1323-18e6-1857-d7b5" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ee94-bdee-174b-765d" name="Dodge" hidden="false" targetId="acc0-ca71-0fc7-bcb8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="217f-0bdb-a674-9520" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="f781-2e58-3b0c-f3ae" name="Gunfighter" hidden="false" targetId="5abb-ae69-4d2e-1f03" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="648a-80ef-5628-8625" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="49c4-a4a8-4935-edbe" name="Marksman" hidden="false" targetId="33d8-e4a3-89d0-a2fc" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e26b-53da-1eb1-1389" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e3a5-0e9f-85cb-8d6d" name="Sprint" hidden="false" targetId="d76d-8396-d4b6-38b2" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09a3-7112-ca0f-422e" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="1f5c-a2be-a814-4c68" name="Escher Status Weapons" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="0360-dc9a-4373-0e05" name="Chem-thrower" hidden="false" targetId="6185-0e91-44fe-11f0" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="195b-aa26-fb03-019f" name="Needle/bolter combi-weapon" hidden="false" targetId="fced-c176-08b6-7c36" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="c80b-bc93-bfe7-c77b" name="Plasma Pistol" hidden="false" targetId="436c-8c00-aaa0-7f07" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ec4d-5f5d-dccb-679e" name="Shock Whip" hidden="false" targetId="e0ea-925a-f0fc-84cb" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="92fa-832c-182f-d622" name="Escher Weapons" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="8f42-17ed-68ba-2867" name="Autogun" hidden="false" targetId="ee08-a780-98fd-77bf" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="56b5-1b9e-79d9-94ee" name="Autopistol" hidden="false" targetId="3900-a54c-5f61-84f0" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="fe1f-0583-c6fb-6013" name="Lasgun" hidden="false" targetId="3543-33b8-2d23-60a2" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6f45-825b-4941-f263" name="Laspistol" hidden="false" targetId="cd74-7781-d3f5-1a7a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d96f-3645-79a6-c4cb" name="Power Sword" hidden="false" targetId="964b-8088-03e0-5e15" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="aa17-1818-97c6-b8f0" name="Shotgun" hidden="false" targetId="082a-0d1c-4596-7bec" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d1b1-28d5-c6dc-235f" name="Stiletto Knife" hidden="false" targetId="d449-22c2-4378-77dd" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="d77c-bc4b-2638-f01b" name="Wargear" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="f7b5-3692-c41e-3255" name="Krak Grenade" hidden="false" targetId="8744-dc35-e915-e11d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bef8-48c9-5050-5465" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e4e3-16e9-2245-579d" name="Frag Grenade" hidden="false" targetId="4892-483b-db9f-3467" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cea-cc6e-4d34-e23c" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6f8b-86cf-9ccb-9f48" name="Respirator" hidden="false" targetId="529c-afbb-cdc9-06a9" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e538-ef13-e861-f67d" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4892-afa5-da49-cbd8" name="Stimm-slug stash" hidden="false" targetId="e3d2-5872-cec8-c4af" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8404-3d36-356a-953a" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="efee-525d-7051-14d4" name="Choke Gas Grenade" hidden="false" targetId="73d7-fdbd-8808-1da6" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4418-dad5-ac63-d1a1" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>

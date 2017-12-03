@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="e0b2-fd9d-e110-5cee" name="Necromunda Underhive" revision="6" battleScribeVersion="2.01" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="e0b2-fd9d-e110-5cee" name="Necromunda Underhive" revision="7" battleScribeVersion="2.01" authorName="Pinecones" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1329,6 +1329,178 @@
         <cost name=" Experience" costTypeId="e376-1490-44be-734d" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="73d7-fdbd-8808-1da6" name="Choke Gas Grenade" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="8175-02b5-3516-218f" name="Choke Gas Grenade" hidden="false" targetId="a03d-e2df-189f-e9e8" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6d71-6eef-49a8-c708" name="Grenade" hidden="false" targetId="ed09-eee4-c760-4e4f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e8de-ebc8-4af4-f84a" name="Blast (3&quot;/5&quot;)" hidden="false" targetId="d061-7ff0-8cb0-08eb" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="05fe-4832-a101-251e" name="Gas" hidden="false" targetId="46c0-f8a9-8d4f-3ec8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Credits" costTypeId="0a70-8b99-2ebd-4ce3" value="35.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0ab2-ea12-b4ed-ef5f" name="Counter-Attack" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="d6cd-00a9-2d2a-97ca" name="Counter-Attack" hidden="false" targetId="e1c5-852f-80bd-2111" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="6f8f-c15d-e932-3154" name="Disarm" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="ef7c-7ad8-1f65-a527" name="Disarm" hidden="false" targetId="3b45-6ca0-24dd-c97f" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="fa09-ffa2-91cc-4876" name="Dive" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="96ef-ef32-991c-da27" name="Dive" hidden="false" targetId="604e-8448-6b79-7a51" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="acc0-ca71-0fc7-bcb8" name="Dodge" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="707b-68a2-ecf9-2f34" name="Dodge" hidden="false" targetId="4a0f-0bfc-df83-7b99" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="5abb-ae69-4d2e-1f03" name="Gunfighter" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="6f4d-c7fd-6e25-5c7f" name="Gunfighter" hidden="false" targetId="3707-4dd9-445f-c264" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="33d8-e4a3-89d0-a2fc" name="Marksman" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="52a6-3371-35cd-1be2" name="Marksman" hidden="false" targetId="0335-2865-b329-bdc2" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="d76d-8396-d4b6-38b2" name="Sprint" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="397e-bbf2-fafe-f2a5" name="Sprint" hidden="false" targetId="e8fc-1e07-7ff1-da58" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="6568-3fd4-2fd6-b3ae" name="Leader Skills" hidden="false" collective="false">
@@ -1396,74 +1568,6 @@
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="2542-8c6c-8d1b-ae8d" name="Escher Weapons" hidden="false" collective="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="93b1-e6dd-f9d1-b3f0" name="Autogun" hidden="false" targetId="ee08-a780-98fd-77bf" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="e3f0-335b-8395-0958" name="Autopistol" hidden="false" targetId="3900-a54c-5f61-84f0" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="0c4e-28c7-b697-a11b" name="Lasgun" hidden="false" targetId="3543-33b8-2d23-60a2" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="0615-dbec-81cc-da4d" name="Laspistol" hidden="false" targetId="cd74-7781-d3f5-1a7a" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="5ff4-d9d0-f276-a5a2" name="Power Sword" hidden="false" targetId="964b-8088-03e0-5e15" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="0994-4b09-558c-f166" name="Shotgun" hidden="false" targetId="082a-0d1c-4596-7bec" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="7673-b075-65c7-21af" name="Stiletto Knife" hidden="false" targetId="d449-22c2-4378-77dd" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-    </selectionEntryGroup>
     <selectionEntryGroup id="bc2b-25f3-48a6-a4eb" name="Wargear" hidden="false" collective="false">
       <profiles/>
       <rules/>
@@ -1512,50 +1616,6 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e906-f5d2-837a-0d93" type="max"/>
           </constraints>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="6eac-de8e-2e03-c8a6" name="Escher Status Weapons" hidden="false" collective="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="1669-8120-a5a1-423b" name="Chem-thrower" hidden="false" targetId="6185-0e91-44fe-11f0" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="318b-7fa1-4e5c-2bff" name="Needle/bolter combi-weapon" hidden="false" targetId="fced-c176-08b6-7c36" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="569b-395d-8590-3943" name="Plasma Pistol" hidden="false" targetId="436c-8c00-aaa0-7f07" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="9a94-8634-aea8-e6d6" name="Shock Whip" hidden="false" targetId="e0ea-925a-f0fc-84cb" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -2308,7 +2368,7 @@ Against attacks with the Blast trait, use the center of the Blast marker in plac
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="If a group is activated, and this fighter is chosen to lead the group, it can include one more fighter than normal (ie, a Champion could activate two other fighters instead of one, or a Leader could activate three)"/>
+        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="If a group is activated, and this fighter is chosen to lead the group, it can include one more fighter than normal (ie, a Champion could activate two other fighters instead of one, or a Leader could activate three)."/>
       </characteristics>
     </profile>
     <profile id="0b02-db43-a7d6-0910" name="Crushing Blow" hidden="false" profileTypeId="ac19-656d-841d-ab03" profileTypeName="Skill">
@@ -2381,6 +2441,71 @@ Against attacks with the Blast trait, use the center of the Blast marker in plac
       <modifiers/>
       <characteristics>
         <characteristic name="Description" characteristicTypeId="f560-c082-daf1-7aca" value="If a ganger with a respirator is hit by a weapon with the Gas trait, their Toughness is increased by 2 for the purposes of the roll to see whether they are affected."/>
+      </characteristics>
+    </profile>
+    <profile id="e1c5-852f-80bd-2111" name="Counter-Attack" book="" hidden="false" profileTypeId="ac19-656d-841d-ab03" profileTypeName="Skill">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="When the fighter makes Reaction attacks in close combat, they roll one additional Attack dice for each of the attacker’s attacks that failed to hit (whether they missed, they were parried, etc)."/>
+      </characteristics>
+    </profile>
+    <profile id="3b45-6ca0-24dd-c97f" name="Disarm" hidden="false" profileTypeId="ac19-656d-841d-ab03" profileTypeName="Skill">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="Any Melee weapons used by the fighter gain the Disarm trait. If a weapon already has that trait, then the target will be disarmed on a natural roll of 5 or 6, not just 6."/>
+      </characteristics>
+    </profile>
+    <profile id="604e-8448-6b79-7a51" name="Dive" hidden="false" profileTypeId="ac19-656d-841d-ab03" profileTypeName="Skill">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="The fighter can voluntarily become Pinned at the end of any action, for free."/>
+      </characteristics>
+    </profile>
+    <profile id="4a0f-0bfc-df83-7b99" name="Dodge" hidden="false" profileTypeId="ac19-656d-841d-ab03" profileTypeName="Skill">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="If this fighter suffers a wound from a ranged or close combat attack, roll a D6. On a 6, the attack is dodged and has no effect; otherwise continue to make a save roll as normal. 
+
+If the model dodges a weapon that uses a Blast maker or Flame template, a roll of 6 does not automatically cancel the attack – instead, it allows the fighter to move up to 2’’ before seeing whether they are hit. They cannot move within 1’’ of an enemy fighter."/>
+      </characteristics>
+    </profile>
+    <profile id="3707-4dd9-445f-c264" name="Gunfighter" hidden="false" profileTypeId="ac19-656d-841d-ab03" profileTypeName="Skill">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="If the fighter attacks with two pistols, they do not suffer the -1 penalty to the hit rolls and can, if they wish, target a different enemy with each pistol. "/>
+      </characteristics>
+    </profile>
+    <profile id="0335-2865-b329-bdc2" name="Marksman" hidden="false" profileTypeId="ac19-656d-841d-ab03" profileTypeName="Skill">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="The fighter is not affected by the rules for target Priority. In addition, if they score a 6 to hit when making a ranged attack that does not use a Blast marker, they score a critical hit, and the attack’s Damage is doubled (if they are firing a Rapid Fire weapon, only the first hit’s Damage is doubled)"/>
+      </characteristics>
+    </profile>
+    <profile id="e8fc-1e07-7ff1-da58" name="Sprint" hidden="false" profileTypeId="ac19-656d-841d-ab03" profileTypeName="Skill">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="1ec0-e86d-65c5-8dc8" value="If this fighter makes two Move (Simple) actions in a turn, they can use the second one to Sprint. This lets them make a Double Move instead of a Standard Move for that action."/>
       </characteristics>
     </profile>
   </sharedProfiles>
